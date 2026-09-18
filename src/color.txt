@@ -1,0 +1,1 @@
+bg-gradient-to-r from-[#6d31fa] to-[#aa56ff]
