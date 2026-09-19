@@ -5,7 +5,7 @@ const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <header className="border-b border-violet-500/20 bg-slate-950">
+        <header className="sticky top-0 z-50 border-b border-violet-500/20 bg-slate-950">
             <div className="mx-auto max-w-6xl px-4 py-4 sm:px-6 sm:py-5">
 
                 {/* Header Top */}

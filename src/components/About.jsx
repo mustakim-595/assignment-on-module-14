@@ -26,7 +26,7 @@ const About = () => {
             </span>
           </h2>
 
-          <div className="mx-auto mt-5 h-1 w-16 rounded-full bg-gradient-to-r from-violet-500 via-fuchsia-500 to-pink-500 sm:w-20" />
+          <div className="mx-auto mt-5 w-1 h-1 rounded-full bg-gradient-to-r from-violet-500 via-fuchsia-500 to-pink-500 sm:w-20" />
         </div>
 
         {/* About Content */}
@@ -59,7 +59,7 @@ const About = () => {
           <div className="relative">
             <div className="rounded-2xl border border-slate-800 bg-slate-950/70 p-5 sm:p-8">
 
-              <div className="grid grid-cols-1 gap-4 min-[400px]:grid-cols-2 sm:gap-5">
+              <div className="grid grid-cols-2 gap-4 min-[400px]:grid-cols-2 sm:gap-6">
 
                 {/* Item 1 */}
                 <div className="rounded-xl border border-violet-500/20 bg-gradient-to-br from-violet-500/10 to-transparent p-5">

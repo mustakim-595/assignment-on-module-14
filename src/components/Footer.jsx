@@ -58,7 +58,7 @@ const Footer = () => {
             <a
               href="#"
               aria-label="Facebook"
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-violet-500/20 bg-gradient-to-br from-violet-500/10 to-fuchsia-500/10 text-slate-400 transition duration-300 hover:-translate-y-1 hover:border-violet-400/50 hover:bg-gradient-to-r hover:from-violet-600 hover:to-fuchsia-600 hover:text-white sm:h-11 sm:w-11"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-violet-500/20 bg-gradient-to-br from-violet-500/10 to-fuchsia-500/10 text-slate-400 transition duration-300 hover:-translate-y-1 hover:border-violet-500/20 hover:bg-gradient-to-r hover:from-violet-500/20 hover:to-fuchsia-500/20 text-white sm:h-11 sm:w-11"
             >
               <FaFacebookF size={17} />
             </a>
@@ -67,7 +67,7 @@ const Footer = () => {
             <a
               href="#"
               aria-label="GitHub"
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-violet-500/20 bg-gradient-to-br from-violet-500/10 to-fuchsia-500/10 text-slate-400 transition duration-300 hover:-translate-y-1 hover:border-violet-400/50 hover:bg-gradient-to-r hover:from-violet-600 hover:to-fuchsia-600 hover:text-white sm:h-11 sm:w-11"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-violet-500/20 bg-gradient-to-br from-violet-500/10 to-fuchsia-500/10 text-slate-400 transition duration-300 hover:-translate-y-1 hover:border-violet-500/20 hover:bg-gradient-to-r hover:from-violet-500/20 hover:to-fuchsia-500/20 hover:text-white sm:h-11 sm:w-11"
             >
               <FaGithub size={18} />
             </a>
@@ -76,7 +76,7 @@ const Footer = () => {
             <a
               href="#"
               aria-label="LinkedIn"
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-violet-500/20 bg-gradient-to-br from-violet-500/10 to-fuchsia-500/10 text-slate-400 transition duration-300 hover:-translate-y-1 hover:border-violet-400/50 hover:bg-gradient-to-r hover:from-violet-600 hover:to-fuchsia-600 hover:text-white sm:h-11 sm:w-11"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-violet-500/20 bg-gradient-to-br from-violet-500/10 to-fuchsia-500/10 text-slate-400 transition duration-300 hover:-translate-y-1 hover:border-violet-500/20 hover:bg-gradient-to-r hover:from-violet-500/20 hover:to-fuchsia-500/20 hover:text-white sm:h-11 sm:w-11"
             >
               <FaLinkedinIn size={17} />
             </a>
@@ -94,7 +94,7 @@ const Footer = () => {
           <p className="text-xs text-slate-500 sm:text-sm">
             © {new Date().getFullYear()}{" "}
             <span className="bg-gradient-to-r from-violet-400 to-fuchsia-400 bg-clip-text text-transparent">
-              DevSpace
+             DevSpace
             </span>
             . All rights reserved.
           </p>
